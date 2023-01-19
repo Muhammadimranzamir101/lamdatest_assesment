@@ -1,0 +1,21 @@
+{
+  "name": "lamdatest_assesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammadimranzamir101/lamdatest_assesment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammadimranzamir101/lamdatest_assesment/issues"
+  },
+  "homepage": "https://github.com/Muhammadimranzamir101/lamdatest_assesment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
