@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const { Playground } = require('../pages/playground.page');
 
-test('Go to LambdaTest’s and validate your enterd message', async ({ page }) => {
+test('Go to LambdaTest’s, move slider and validate its value', async ({ page }) => {
     const playground = new Playground(page);
     await playground.goto();
     await playground.dndSlider.click();
