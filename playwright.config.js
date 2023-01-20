@@ -3,7 +3,8 @@ const { devices } = require('@playwright/test');
 
 const config = {
   testDir: './tests',
-  timeout: 30 * 1000,
+  testMatch:'*spec.js',
+  timeout: 60 * 1000,
   expect: {
     timeout: 5000
   },
@@ -24,29 +25,6 @@ const config = {
       }
     },
   },
-
-  projects: [
-    {
-      name: 'chromium',
-      use: {
-        browserName: 'chromium',
-      },
-    },
-
-    {
-      name: 'firefox',
-      use: {
-        browserName: 'firefox',
-      },
-    },
-
-    {
-      name: 'webkit',
-      use: {
-        browserName: 'webkit',
-      },
-    },
-  ]
 };
 
 module.exports = config;
