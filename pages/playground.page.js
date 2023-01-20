@@ -7,6 +7,7 @@ exports.Playground =  class Playground{
         this.formDemo = page.locator('a[href*="simple-form-demo"]')
         this.messageBox = page.locator('input#user-message')
         this.checkMsgBtn = page.locator('#showInput')
+        this.dndSlider = page.locator('//a[text()="Drag & Drop Sliders"]')
     }
 
     async goto(){

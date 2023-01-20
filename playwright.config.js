@@ -14,7 +14,6 @@ const config = {
   use: {
     baseURL: 'https://www.lambdatest.com/',
     browserName: 'webkit',
-    headless: false,
     ignoreHTTPSErrors: true,
     trace: 'on-first-retry',
     launchOptions: {
